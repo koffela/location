@@ -1,0 +1,27 @@
+{
+  "name": "index",
+  "version": "1.0.0",
+  "description": "Simple Express calculator",
+  "engines": {
+    "node": "10.15.2"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "heroku"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "express-simple-geoip": "^0.1.1",
+    "geolocation": "^0.2.0",
+    "navigator": "^1.0.1",
+    "pug": "^2.0.3"
+  }
+}
